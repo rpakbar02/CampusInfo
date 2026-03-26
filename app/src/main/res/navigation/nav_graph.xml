@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.raihanputraakbar.campusinfo.ui.home.HomeFragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_announcementDetailFragment"
+            app:destination="@id/announcementDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="com.raihanputraakbar.campusinfo.ui.schedule.ScheduleFragment"
+        android:label="Jadwal"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.raihanputraakbar.campusinfo.ui.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/announcementDetailFragment"
+        android:name="com.raihanputraakbar.campusinfo.ui.home.AnnouncementDetailFragment"
+        android:label="Detail Pengumuman"
+        tools:layout="@layout/fragment_announcement_detail">
+        <argument
+            android:name="announcementTitle"
+            app:argType="string" />
+        <argument
+            android:name="announcementContent"
+            app:argType="string" />
+    </fragment>
+</navigation>

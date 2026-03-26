@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CampusInfo</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_schedule">Jadwal</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_detail">Detail Pengumuman</string>
+    <string name="schedule_header">Jadwal Perkuliahan</string>
+    <string name="student_nim_label">NIM: 12345678</string>
+</resources>
