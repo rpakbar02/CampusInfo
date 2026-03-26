@@ -1,4 +1,5 @@
 Tampilan Beranda:
+
 <img width="690" height="1513" alt="image" src="https://github.com/user-attachments/assets/7076092d-7fe8-49aa-a54f-903ccaa7a72e" />
 
 Tampilan Detail info di Beranda (Landscape):
